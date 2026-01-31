@@ -1,0 +1,16 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: repro-dev
+    command: ["sleep", "infinity"]
+    volumes:
+      - .:/workspace
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: repro-app
+    command: ["sleep", "infinity"]

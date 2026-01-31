@@ -1,0 +1,1 @@
+This repo showcases two separate bugs in the cursor Dev Containers Extension. Check out the folders for details. 

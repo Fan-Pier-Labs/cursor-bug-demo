@@ -1,0 +1,6 @@
+{
+  "name": "No-services-to-build repro",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "dev",
+  "workspaceFolder": "/workspace"
+}
